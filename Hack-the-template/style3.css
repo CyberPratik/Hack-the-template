@@ -1,0 +1,235 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+.logo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.logo img{
+    width: 40%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.nav-list{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: center ;
+    align-items: center;
+}
+.nav-list li{
+    padding: 24px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+.nav-list li #home{
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+    
+}
+.right-nav{
+    width: 25%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: white;
+}
+/*end-header*/
+
+.section2{
+    height: 600px;
+    width: 1400px;
+    background-color: grey;
+    display: flex;
+}
+.section2 .left{
+    width: 50%;
+    height: 100%;
+    background-color:  rgba(255, 255, 255, 0.925);
+    background-image: url(img/a.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section2 .right{
+    width: 50%;
+    height: 100%;
+    background-color:  rgba(255, 255, 255, 0.925);
+    padding-top: 100px;
+}
+/*Right section*/
+.txt-section h1{
+    margin-bottom: -10px;
+}
+.txt-section h1 co{
+    color: orange;
+}
+.txt-section h2{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 18px;
+    
+}
+.boxes{
+    display: flex;
+    gap: 5px;
+}
+.b1{
+    height: 55px;
+    width: 50px;
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 50px;
+    
+} 
+/*Right section end!!*/ 
+/*Left Section started*/  
+.left .offer{
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+    border-radius: 50%;
+    border: 10px solid rgba(255, 217, 146, 0.703);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left .offer h5{
+    font-weight: 100;
+}
+
+
+/*footer*/
+.bottom{
+    height: 300px;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-1{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-2{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-3{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-4{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom h2{
+    padding-bottom: 20px;
+}
+.bottom hr{
+    width: 8%;
+    margin-bottom: 20px;
+    border-color: orange;
+}
+.bottom p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bottom li{
+    line-height: 25px;
+}
+/*end-footer*/
+/*responsive*/
+@media(max-width: 1024px){
+    .bottom{
+        padding: 0px 40px;
+    }
+    .nav-list li{
+        padding: 24px 20px;
+    }
+}
+@media(max-width: 768px) {
+    #s-email{
+        width: 80%;
+    }
+    .bottom{
+        font-size: 12px;
+        
+    }
+    .text-fit{
+        text-align:center;
+    }
+    .nav-list a{
+        font-size: 10px;
+    }
+    .logo{
+        transform: translate(-50px, 0px);
+      
+    }
+    .right-nav{
+        width: 15%;
+    }
+    .nav-list{
+        width: 80%;
+        
+    }
+    
+}
+/*End-responsive*/

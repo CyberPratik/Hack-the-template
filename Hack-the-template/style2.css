@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    position: relative;
+}
+.logo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.logo img{
+    width: 40%;
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+.nav-list{
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: center ;
+    align-items: center;
+}
+.nav-list li{
+    padding: 24px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+.nav-list li #home{
+    text-decoration: none;
+    color: orange;
+    font-size: 16px;
+    
+}
+.right-nav{
+    width: 25%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    color: white;
+}
+/*end-header*/
+
+section{
+    background-color: transparent;
+}
+section #h1{
+    text-align: center;
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+section #h1 co{
+    color: orange;
+    
+}
+section #h1 hr{
+    width: 20%; /* Adjust the width as needed */
+    margin: 0 auto; /* This centers the hr horizontally */
+    border: 1px solid orange;
+    
+    
+}
+section #inf1{
+    text-align: center;
+}
+.box{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#box1{
+    height: 25rem;
+    width:  20rem;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.p1{
+    margin-top: 25px;
+    background-image: url(img/products/product-img-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    background-position: center;
+}
+#box2{
+    height: 25rem;
+    width:  20rem;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.p2{
+    margin-top: 25px;
+    background-image: url(img/products/product-img-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    background-position: center;
+
+}
+#box3{
+    height: 25rem;
+    width:  20rem;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.p3{
+    margin-top: 25px;
+    background-image: url(img/products/product-img-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 100%;
+    background-position: center;
+
+}
+.txt{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.txt h1{
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+background-color: orange;
+color: white;
+border: 1px solid orange;
+padding: 10px;
+font-size: 18px;
+border-radius: 50px;
+
+}
+
+
+/*footer*/
+/*footer*/
+.bottom{
+    height: 300px;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-1{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-2{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-3{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom-4{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+}
+.bottom h2{
+    padding-bottom: 20px;
+}
+.bottom hr{
+    width: 8%;
+    margin-bottom: 20px;
+    border-color: orange;
+}
+.bottom p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    
+}
+.bottom li{
+    line-height: 25px;
+}
+/*end-footer*/
+/*responsive*/
+@media(max-width: 1024px){
+    .bottom{
+        padding: 0px 40px;
+    }
+    .nav-list li{
+        padding: 24px 20px;
+    }
+}
+@media(max-width: 768px) {
+    #s-email{
+        width: 80%;
+    }
+    .bottom{
+        font-size: 12px;
+        
+    }
+    .text-fit{
+        text-align:center;
+    }
+    .nav-list a{
+        font-size: 10px;
+    }
+    .logo{
+        transform: translate(-50px, 0px);
+      
+    }
+    .right-nav{
+        width: 15%;
+    }
+    .nav-list{
+        width: 80%;
+        
+    }
+    
+}
+/*End-responsive*/
