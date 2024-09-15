@@ -69,7 +69,7 @@ nav{
 .section{
     height: 500px;
     width: 500px;
-    background-color: red;
+    background-color: transparent;
     display: flex;
 }
 /* Text and button adjustments */
